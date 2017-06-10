@@ -99,7 +99,13 @@ fieldset[disabled] .btn-primary.active {
   color: #fed136;
   background-color: white;
 }
+.btn-m {
+  padding: 0px 0px;
+}
 .btn-xl {
+  padding: 20px 40px;
+}
+.btn-yell {
   color: white;
   background-color: #fed136;
   border-color: #fed136;
@@ -108,41 +114,40 @@ fieldset[disabled] .btn-primary.active {
   font-weight: 700;
   border-radius: 3px;
   font-size: 18px;
-  padding: 20px 40px;
 }
-.btn-xl:hover,
-.btn-xl:focus,
-.btn-xl:active,
-.btn-xl.active,
-.open .dropdown-toggle.btn-xl {
+.btn-yell:hover,
+.btn-yell:focus,
+.btn-yell:active,
+.btn-yell.active,
+.open .dropdown-toggle.btn-yell {
   color: white;
   background-color: #fec503;
   border-color: #f6bf01;
 }
-.btn-xl:active,
-.btn-xl.active,
-.open .dropdown-toggle.btn-xl {
+.btn-yell:active,
+.btn-yell.active,
+.open .dropdown-toggle.btn-yell {
   background-image: none;
 }
-.btn-xl.disabled,
-.btn-xl[disabled],
-fieldset[disabled] .btn-xl,
-.btn-xl.disabled:hover,
-.btn-xl[disabled]:hover,
-fieldset[disabled] .btn-xl:hover,
-.btn-xl.disabled:focus,
-.btn-xl[disabled]:focus,
-fieldset[disabled] .btn-xl:focus,
-.btn-xl.disabled:active,
-.btn-xl[disabled]:active,
-fieldset[disabled] .btn-xl:active,
-.btn-xl.disabled.active,
-.btn-xl[disabled].active,
-fieldset[disabled] .btn-xl.active {
+.btn-yell.disabled,
+.btn-yell[disabled],
+fieldset[disabled] .btn-yell,
+.btn-yell.disabled:hover,
+.btn-yell[disabled]:hover,
+fieldset[disabled] .btn-yell:hover,
+.btn-yell.disabled:focus,
+.btn-yell[disabled]:focus,
+fieldset[disabled] .btn-yell:focus,
+.btn-yell.disabled:active,
+.btn-yell[disabled]:active,
+fieldset[disabled] .btn-yell:active,
+.btnyelll.disabled.active,
+.btn-yell[disabled].active,
+fieldset[disabled] .btn-yell.active {
   background-color: #fed136;
   border-color: #fed136;
 }
-.btn-xl .badge {
+.btn-yell .badge {
   color: #fed136;
   background-color: white;
 }
@@ -562,23 +567,6 @@ section#contact {
 section#contact .section-heading {
   color: white;
 }
-section#contact .form-group {
-  margin-bottom: 25px;
-}
-section#contact .form-group input,
-section#contact .form-group textarea {
-  padding: 20px;
-}
-section#contact .form-group input.form-control {
-  height: auto;
-}
-section#contact .form-group textarea.form-control {
-  height: 236px;
-}
-section#contact .form-control:focus {
-  border-color: #fed136;
-  box-shadow: none;
-}
 section#contact ::-webkit-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -743,4 +731,9 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #fed136;
+}
+.fa-stack-s {
+    width: 2.1em;
+    height: 1.4em;
+    line-height: 1.3em;
 }
