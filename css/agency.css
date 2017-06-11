@@ -558,6 +558,16 @@ section h3.section-subheading {
 aside.clients img {
   margin: 50px auto;
 }
+section#about {
+  background-image: url('../img/zebra-1170177.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+section#about .container {
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
+  padding: 20px 0;
+}
 section#contact {
   background-color: #222222;
   background-image: url('../img/map-image.png');
@@ -733,7 +743,7 @@ body {
   webkit-tap-highlight-color: #fed136;
 }
 .fa-stack-s {
-    width: 2.1em;
-    height: 1.4em;
-    line-height: 1.3em;
+    width: 1.4em;
+    height: 1.1em;
+    line-height: 1em;
 }
